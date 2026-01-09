@@ -1,20 +1,21 @@
+
 .nav-logo{
     width: 139px;
     height: 60px;
-    align-items: center;
+    /* align-items: center; */
     /* margin: 16px 0 16px 120px; */
 }
 
 body {
   font-family: "Inter", sans-serif;
-  
+  margin: 0;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 120px;
-    margin: 0, auto;
+    margin: 0 auto;
     height: 120px;
 }
 .nav-center{
@@ -33,7 +34,7 @@ body {
     font-weight: 700;
     width: 164px;
     height: 44px;
-    background-color: #17a853;
+    background-color: #30b868;
     color: #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
@@ -44,4 +45,106 @@ body {
 .nav-right{
     display: flex;
     justify-content:flex-end;
+}
+
+.banner{
+    height: 674px;
+    background-image: url("../assets/hero-bg.png");
+    background-size:cover;
+    background-position: center;
+}
+.banner-overlay{
+    height: 100%;
+    padding: 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-inner{
+    width: 100%;
+    max-width: 1360px;
+}
+.banner-content{
+    text-align: center;
+    color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.early-access{
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    height: 35px;
+    /* width: 229px; */
+    padding: 0 14px;
+    background: white;
+    color: #30b868;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    /* border: 5px solid red; */
+    text-align: center;
+    cursor: pointer;
+}
+.early-access p{
+    margin: 0;
+}
+.banner-title{
+    margin: 18px 0 12px 0;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 76px;
+    gap: 16px;
+}
+.green{
+    color: #30b868;
+}
+.banner-text{
+    font-size: 18px;
+    font-weight: 200;
+    /* width: 1360px; */
+    /* height: 60px; */
+    margin: 0 auto;
+    line-height: 24px;
+    color: white;
+    max-width: 770px;
+    
+}
+.banner-buttons{
+display: flex;
+justify-content: center;
+gap: 16px;
+margin-top: 32px;
+cursor: pointer;
+}
+.btn-green{
+    height: 52px;
+    padding: 0 19px;
+    background: #30b868;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex; 
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+.btn-white{
+  height: 52px;
+  padding: 0 20px;
+  background: transparent;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+}
+.play, .icon {
+    width: 20px;
+    height: 20px;
 }
