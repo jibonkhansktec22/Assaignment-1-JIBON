@@ -1,5 +1,5 @@
 
-.nav-logo{
+.logo{
     width: 139px;
     height: 60px;
     /* align-items: center; */
@@ -216,4 +216,50 @@ cursor: pointer;
     margin: 16px 0 0 0;
     color: #627382;
     line-height: 20px;
+}
+
+.brain-section{
+    padding: 120px 120px;
+}
+.brain-container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.brain-content{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.brain-left{
+    width: 600px;
+    height: 600px;
+}
+.brain-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.brain-right{
+    width: 700px;
+    height: 396px;
+}
+.brain-label{
+    margin: 0 0 16 0;
+    color: #30b868;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.brain-title{
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    line-height: auto;
+}
+.brain-para{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #627382;
+    max-width: 700px;
 }
