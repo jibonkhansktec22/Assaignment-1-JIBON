@@ -1,7 +1,8 @@
 
-.logo{
+.nav-logo{
     width: 139px;
-    height: 60px;
+    height: auto;
+    display: block;
     /* align-items: center; */
     /* margin: 16px 0 16px 120px; */
 }
@@ -14,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 16px 120px;
     margin: 0 auto;
     height: 120px;
 }
@@ -41,6 +42,10 @@ body {
 }
 .nav-logo, .nav-right{
     width: 240px;
+}
+.btn-icon{
+    width: 20px;
+    height: 20px;
 }
 .nav-right{
     display: flex;
@@ -155,9 +160,14 @@ cursor: pointer;
 }
 
 .note-section{
+    /* padding: 80px 120px 120px; */
+    background: #f6f7f2;
+    width: 1600px;
+    /* height: 840px; */
     padding: 80px 120px;
+    margin-bottom: 120px;
 }
-.note-inside{
+.note-content{
     max-width: 1360px;
     margin: 0 auto;
     text-align: center;
@@ -167,6 +177,7 @@ cursor: pointer;
     font-size: 48px;
     font-weight: bold;
     color: #001931;
+    gap: 16px;
 }
 .notes-para{
     margin: 16px auto 0 auto;
@@ -174,6 +185,7 @@ cursor: pointer;
     font-size: 16px;
     font-weight: 300;
     color: #627382;
+    gap: 44px;
 }
 .notes-cards{
     margin-top: 44px;
@@ -219,7 +231,7 @@ cursor: pointer;
 }
 
 .brain-section{
-    padding: 120px 120px;
+    padding: 0 120px;
 }
 .brain-container{
     max-width: 1360px;
@@ -328,8 +340,8 @@ cursor: pointer;
     margin-top: 24px;
 }
 .logo{
-    width: 20px;
-    height: 20px;
+    /* width: 20px; */
+    /* height: 20px; */
 }
 
 .footer{
@@ -339,6 +351,7 @@ cursor: pointer;
 .footer-content{
     max-width: 1360px;
     margin: 0 auto;
+    padding: 0 120px ;
 }
 .footer-top{
     display: flex;
